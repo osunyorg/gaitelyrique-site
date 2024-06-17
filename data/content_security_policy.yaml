@@ -13,4 +13,5 @@ allowed_domains:
   - "player.vimeo.com"
   - "vumbnail.com"
   - "w.soundcloud.com"
+  - "bandcamp.com"
   - "whyd.com"
