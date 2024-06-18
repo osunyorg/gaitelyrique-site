@@ -20,3 +20,4 @@ allowed_domains:
   - "cache.vevo.com"
   - "whyd.com"
   - "play.soundsgood.co"
+  - "embed.spotify.com"
