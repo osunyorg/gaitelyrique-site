@@ -2,7 +2,7 @@
 
 fr:
   title: >-
-    Gaîté Lyrique
+    Gaîté Lyrique (test import)
   contentDir: content/fr
   languageCode: fr
   languageName: Français
@@ -15,6 +15,8 @@ fr:
     projects_categories: /projets/:slug/
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
+    organizations: /organisations/:slug/
+    organizations_categories: /organisations/categories/:slug/
   taxonomies:
     administrator: administrators
     author: authors
