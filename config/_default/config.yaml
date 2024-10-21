@@ -1,14 +1,3 @@
-theme: osuny
-paginate: 18
+theme: gaitelyrique-theme
 enableRobotsTXT: true
 removePathAccents: true
-params:
-  summary:
-    position: hero
-  breadcrumb:
-    position: after-hero
-  search:
-    active: true
-  events:
-    index:
-      layout: grid
