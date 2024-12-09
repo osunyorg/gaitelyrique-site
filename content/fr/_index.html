@@ -4,13 +4,14 @@ breadcrumb_title: >-
 title: >-
   Fabrique de l'époque
 url: "/"
+slug: ""
 date: 2024-06-17T14:08:39+02:00
 lastmod: 2024-10-28T17:02:29+01:00
 meta:
   hugo:
     permalink: "/"
+    path: "/"
     file: "content/fr/_index.html"
-    path: ""
     slug: ""
   dates:
     created_at: 2024-06-17T14:08:39+02:00
@@ -88,12 +89,19 @@ contents:
 
       title_link: "/agenda/"
       events:
-        - path: "/agenda/2024-12-17-uto/"
-          file: "events/2024-12-17-uto.html"
-        - path: "/agenda/2025-01-15-saabphonie/"
-          file: "events/2025-01-15-saabphonie.html"
-        - path: "/agenda/2025-02-13-zinee/"
-          file: "events/2025-02-13-zinee.html"
+        - permalink: "/agenda/2024-12-17-uto/"
+          path: "/events/2024-12-17-uto"
+          slug: "uto"
+          file: "content/fr/events/2024-12-17-uto.html"
+        - permalink: "/agenda/2025-01-15-saabphonie/"
+          path: "/events/2025-01-15-saabphonie"
+          slug: "saabphonie"
+          file: "content/fr/events/2025-01-15-saabphonie.html"
+        - permalink: "/agenda/2025-02-13-zinee/"
+          path: "/events/2025-02-13-zinee"
+          slug: "zinee"
+          file: "content/fr/events/2025-02-13-zinee.html"
+
 
 
   - kind: block
@@ -123,10 +131,17 @@ contents:
         
 
       title_link: "/agenda/gratuit/"
-      category: "/gratuit/"
+      category: 
+        permalink: "/agenda/gratuit/"
+        path: "/events_categories/gratuit"
+        slug: "gratuit"
+        file: "content/fr/events_categories/gratuit/_index.html"
       events:
-        - path: "/agenda/2031-12-13-the-happy-show-a-l-espace-jeux-video-3/"
-          file: "events/2031-12-13-the-happy-show-a-l-espace-jeux-video-3.html"
+        - permalink: "/agenda/2031-12-13-the-happy-show-a-l-espace-jeux-video-3/"
+          path: "/events/2031-12-13-the-happy-show-a-l-espace-jeux-video-3"
+          slug: "the-happy-show-a-l-espace-jeux-video-3"
+          file: "content/fr/events/2031-12-13-the-happy-show-a-l-espace-jeux-video-3.html"
+
 
 
   - kind: block
@@ -152,9 +167,19 @@ contents:
         summary: true
 
       posts:
-        - "2024/2024-10-28-formation-au-back-office"
-        - "2024/2024-10-28-reporting-acf-2024"
-        - "2024/2024-10-21-article-de-test"
+        - permalink: "/actualites/2024-10-28-formation-au-back-office/"
+          path: "/posts/2024/2024-10-28-formation-au-back-office"
+          slug: "formation-au-back-office"
+          file: "content/fr/posts/2024/2024-10-28-formation-au-back-office.html"
+        - permalink: "/actualites/2024-10-28-reporting-acf-2024/"
+          path: "/posts/2024/2024-10-28-reporting-acf-2024"
+          slug: "reporting-acf-2024"
+          file: "content/fr/posts/2024/2024-10-28-reporting-acf-2024.html"
+        - permalink: "/actualites/2024-10-21-article-de-test/"
+          path: "/posts/2024/2024-10-21-article-de-test"
+          slug: "article-de-test"
+          file: "content/fr/posts/2024/2024-10-21-article-de-test.html"
+
 
 
   - kind: block
@@ -177,8 +202,14 @@ contents:
         summary: false
 
       organizations:
-        - slug: "ascendant-vierge"
-        - slug: "nuits-sonores"
+        - permalink: "/organisations/ascendant-vierge/"
+          path: "/organizations/ascendant-vierge"
+          slug: "ascendant-vierge"
+          file: "content/fr/organizations/ascendant-vierge.html"
+        - permalink: "/organisations/nuits-sonores/"
+          path: "/organizations/nuits-sonores"
+          slug: "nuits-sonores"
+          file: "content/fr/organizations/nuits-sonores.html"
 
 
 
