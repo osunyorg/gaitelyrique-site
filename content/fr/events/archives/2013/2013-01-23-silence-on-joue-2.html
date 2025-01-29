@@ -78,22 +78,26 @@ events_categories:
   - "rencontre"
   - "jeux-video"
   - "radio"
-free_categories:
-  - permalink: "/agenda/rencontre/"
-    path: "/events_categories/rencontre"
-    slug: "rencontre"
-    file: "content/fr/events_categories/rencontre/_index.html"
-    name: "Rencontre"
-  - permalink: "/agenda/jeux-video/"
-    path: "/events_categories/jeux-video"
-    slug: "jeux-video"
-    file: "content/fr/events_categories/jeux-video/_index.html"
-    name: "jeux video"
-  - permalink: "/agenda/radio/"
-    path: "/events_categories/radio"
-    slug: "radio"
-    file: "content/fr/events_categories/radio/_index.html"
-    name: "radio"
+taxonomies:
+  - name: "Catégories"
+    slug: ""
+    categories:
+      - permalink: "/agenda/rencontre/"
+        path: "/events_categories/rencontre"
+        slug: "rencontre"
+        file: "content/fr/events_categories/rencontre/_index.html"
+        name: "Rencontre"
+      - permalink: "/agenda/jeux-video/"
+        path: "/events_categories/jeux-video"
+        slug: "jeux-video"
+        file: "content/fr/events_categories/jeux-video/_index.html"
+        name: "jeux video"
+      - permalink: "/agenda/radio/"
+        path: "/events_categories/radio"
+        slug: "radio"
+        file: "content/fr/events_categories/radio/_index.html"
+        name: "radio"
+
 
 contents_reading_time:
   seconds: 15
