@@ -77,17 +77,21 @@ summary: >-
 events_categories:
   - "rencontre"
   - "art"
-free_categories:
-  - permalink: "/agenda/rencontre/"
-    path: "/events_categories/rencontre"
-    slug: "rencontre"
-    file: "content/fr/events_categories/rencontre/_index.html"
-    name: "Rencontre"
-  - permalink: "/agenda/art/"
-    path: "/events_categories/art"
-    slug: "art"
-    file: "content/fr/events_categories/art/_index.html"
-    name: "art"
+taxonomies:
+  - name: "Catégories"
+    slug: ""
+    categories:
+      - permalink: "/agenda/rencontre/"
+        path: "/events_categories/rencontre"
+        slug: "rencontre"
+        file: "content/fr/events_categories/rencontre/_index.html"
+        name: "Rencontre"
+      - permalink: "/agenda/art/"
+        path: "/events_categories/art"
+        slug: "art"
+        file: "content/fr/events_categories/art/_index.html"
+        name: "art"
+
 
 contents_reading_time:
   seconds: 8

@@ -77,17 +77,21 @@ summary: >-
 events_categories:
   - "rencontre"
   - "futur"
-free_categories:
-  - permalink: "/agenda/rencontre/"
-    path: "/events_categories/rencontre"
-    slug: "rencontre"
-    file: "content/fr/events_categories/rencontre/_index.html"
-    name: "Rencontre"
-  - permalink: "/agenda/futur/"
-    path: "/events_categories/futur"
-    slug: "futur"
-    file: "content/fr/events_categories/futur/_index.html"
-    name: "futur"
+taxonomies:
+  - name: "Catégories"
+    slug: ""
+    categories:
+      - permalink: "/agenda/rencontre/"
+        path: "/events_categories/rencontre"
+        slug: "rencontre"
+        file: "content/fr/events_categories/rencontre/_index.html"
+        name: "Rencontre"
+      - permalink: "/agenda/futur/"
+        path: "/events_categories/futur"
+        slug: "futur"
+        file: "content/fr/events_categories/futur/_index.html"
+        name: "futur"
+
 
 contents_reading_time:
   seconds: 0

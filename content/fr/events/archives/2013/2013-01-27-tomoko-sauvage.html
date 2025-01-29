@@ -77,17 +77,21 @@ summary: >-
 events_categories:
   - "concert"
   - "poesie"
-free_categories:
-  - permalink: "/agenda/concert/"
-    path: "/events_categories/concert"
-    slug: "concert"
-    file: "content/fr/events_categories/concert/_index.html"
-    name: "Concert"
-  - permalink: "/agenda/poesie/"
-    path: "/events_categories/poesie"
-    slug: "poesie"
-    file: "content/fr/events_categories/poesie/_index.html"
-    name: "poésie"
+taxonomies:
+  - name: "Catégories"
+    slug: ""
+    categories:
+      - permalink: "/agenda/concert/"
+        path: "/events_categories/concert"
+        slug: "concert"
+        file: "content/fr/events_categories/concert/_index.html"
+        name: "Concert"
+      - permalink: "/agenda/poesie/"
+        path: "/events_categories/poesie"
+        slug: "poesie"
+        file: "content/fr/events_categories/poesie/_index.html"
+        name: "poésie"
+
 
 contents_reading_time:
   seconds: 63

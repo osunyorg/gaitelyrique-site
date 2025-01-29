@@ -75,17 +75,21 @@ summary: >-
 events_categories:
   - "rencontre"
   - "poesie"
-free_categories:
-  - permalink: "/agenda/rencontre/"
-    path: "/events_categories/rencontre"
-    slug: "rencontre"
-    file: "content/fr/events_categories/rencontre/_index.html"
-    name: "Rencontre"
-  - permalink: "/agenda/poesie/"
-    path: "/events_categories/poesie"
-    slug: "poesie"
-    file: "content/fr/events_categories/poesie/_index.html"
-    name: "poésie"
+taxonomies:
+  - name: "Catégories"
+    slug: ""
+    categories:
+      - permalink: "/agenda/rencontre/"
+        path: "/events_categories/rencontre"
+        slug: "rencontre"
+        file: "content/fr/events_categories/rencontre/_index.html"
+        name: "Rencontre"
+      - permalink: "/agenda/poesie/"
+        path: "/events_categories/poesie"
+        slug: "poesie"
+        file: "content/fr/events_categories/poesie/_index.html"
+        name: "poésie"
+
 
 contents_reading_time:
   seconds: 43
