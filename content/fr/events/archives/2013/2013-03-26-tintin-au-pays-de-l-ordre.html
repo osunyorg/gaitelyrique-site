@@ -77,17 +77,21 @@ summary: >-
 events_categories:
   - "rencontre"
   - "philosophie"
-free_categories:
-  - permalink: "/agenda/rencontre/"
-    path: "/events_categories/rencontre"
-    slug: "rencontre"
-    file: "content/fr/events_categories/rencontre/_index.html"
-    name: "Rencontre"
-  - permalink: "/agenda/philosophie/"
-    path: "/events_categories/philosophie"
-    slug: "philosophie"
-    file: "content/fr/events_categories/philosophie/_index.html"
-    name: "philosophie"
+taxonomies:
+  - name: "Catégories"
+    slug: ""
+    categories:
+      - permalink: "/agenda/rencontre/"
+        path: "/events_categories/rencontre"
+        slug: "rencontre"
+        file: "content/fr/events_categories/rencontre/_index.html"
+        name: "Rencontre"
+      - permalink: "/agenda/philosophie/"
+        path: "/events_categories/philosophie"
+        slug: "philosophie"
+        file: "content/fr/events_categories/philosophie/_index.html"
+        name: "philosophie"
+
 
 contents_reading_time:
   seconds: 91

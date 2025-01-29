@@ -77,17 +77,21 @@ summary: >-
 events_categories:
   - "concert"
   - "danse"
-free_categories:
-  - permalink: "/agenda/concert/"
-    path: "/events_categories/concert"
-    slug: "concert"
-    file: "content/fr/events_categories/concert/_index.html"
-    name: "Concert"
-  - permalink: "/agenda/danse/"
-    path: "/events_categories/danse"
-    slug: "danse"
-    file: "content/fr/events_categories/danse/_index.html"
-    name: "danse"
+taxonomies:
+  - name: "Catégories"
+    slug: ""
+    categories:
+      - permalink: "/agenda/concert/"
+        path: "/events_categories/concert"
+        slug: "concert"
+        file: "content/fr/events_categories/concert/_index.html"
+        name: "Concert"
+      - permalink: "/agenda/danse/"
+        path: "/events_categories/danse"
+        slug: "danse"
+        file: "content/fr/events_categories/danse/_index.html"
+        name: "danse"
+
 
 contents_reading_time:
   seconds: 29
