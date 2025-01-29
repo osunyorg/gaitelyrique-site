@@ -77,17 +77,21 @@ summary: >-
 events_categories:
   - "exposition"
   - "illustration"
-free_categories:
-  - permalink: "/agenda/exposition/"
-    path: "/events_categories/exposition"
-    slug: "exposition"
-    file: "content/fr/events_categories/exposition/_index.html"
-    name: "Exposition"
-  - permalink: "/agenda/illustration/"
-    path: "/events_categories/illustration"
-    slug: "illustration"
-    file: "content/fr/events_categories/illustration/_index.html"
-    name: "illustration"
+taxonomies:
+  - name: "Catégories"
+    slug: ""
+    categories:
+      - permalink: "/agenda/exposition/"
+        path: "/events_categories/exposition"
+        slug: "exposition"
+        file: "content/fr/events_categories/exposition/_index.html"
+        name: "Exposition"
+      - permalink: "/agenda/illustration/"
+        path: "/events_categories/illustration"
+        slug: "illustration"
+        file: "content/fr/events_categories/illustration/_index.html"
+        name: "illustration"
+
 
 contents_reading_time:
   seconds: 592
