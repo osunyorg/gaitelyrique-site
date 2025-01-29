@@ -77,17 +77,21 @@ summary: >-
 events_categories:
   - "concert"
   - "radio"
-free_categories:
-  - permalink: "/agenda/concert/"
-    path: "/events_categories/concert"
-    slug: "concert"
-    file: "content/fr/events_categories/concert/_index.html"
-    name: "Concert"
-  - permalink: "/agenda/radio/"
-    path: "/events_categories/radio"
-    slug: "radio"
-    file: "content/fr/events_categories/radio/_index.html"
-    name: "radio"
+taxonomies:
+  - name: "Catégories"
+    slug: ""
+    categories:
+      - permalink: "/agenda/concert/"
+        path: "/events_categories/concert"
+        slug: "concert"
+        file: "content/fr/events_categories/concert/_index.html"
+        name: "Concert"
+      - permalink: "/agenda/radio/"
+        path: "/events_categories/radio"
+        slug: "radio"
+        file: "content/fr/events_categories/radio/_index.html"
+        name: "radio"
+
 
 contents_reading_time:
   seconds: 160
