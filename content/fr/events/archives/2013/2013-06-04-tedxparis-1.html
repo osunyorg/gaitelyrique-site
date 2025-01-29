@@ -77,17 +77,21 @@ summary: >-
 events_categories:
   - "rencontre"
   - "science"
-free_categories:
-  - permalink: "/agenda/rencontre/"
-    path: "/events_categories/rencontre"
-    slug: "rencontre"
-    file: "content/fr/events_categories/rencontre/_index.html"
-    name: "Rencontre"
-  - permalink: "/agenda/science/"
-    path: "/events_categories/science"
-    slug: "science"
-    file: "content/fr/events_categories/science/_index.html"
-    name: "science"
+taxonomies:
+  - name: "Catégories"
+    slug: ""
+    categories:
+      - permalink: "/agenda/rencontre/"
+        path: "/events_categories/rencontre"
+        slug: "rencontre"
+        file: "content/fr/events_categories/rencontre/_index.html"
+        name: "Rencontre"
+      - permalink: "/agenda/science/"
+        path: "/events_categories/science"
+        slug: "science"
+        file: "content/fr/events_categories/science/_index.html"
+        name: "science"
+
 
 contents_reading_time:
   seconds: 36

@@ -77,17 +77,21 @@ summary: >-
 events_categories:
   - "rencontre"
   - "documentaire"
-free_categories:
-  - permalink: "/agenda/rencontre/"
-    path: "/events_categories/rencontre"
-    slug: "rencontre"
-    file: "content/fr/events_categories/rencontre/_index.html"
-    name: "Rencontre"
-  - permalink: "/agenda/documentaire/"
-    path: "/events_categories/documentaire"
-    slug: "documentaire"
-    file: "content/fr/events_categories/documentaire/_index.html"
-    name: "documentaire"
+taxonomies:
+  - name: "Catégories"
+    slug: ""
+    categories:
+      - permalink: "/agenda/rencontre/"
+        path: "/events_categories/rencontre"
+        slug: "rencontre"
+        file: "content/fr/events_categories/rencontre/_index.html"
+        name: "Rencontre"
+      - permalink: "/agenda/documentaire/"
+        path: "/events_categories/documentaire"
+        slug: "documentaire"
+        file: "content/fr/events_categories/documentaire/_index.html"
+        name: "documentaire"
+
 
 contents_reading_time:
   seconds: 18

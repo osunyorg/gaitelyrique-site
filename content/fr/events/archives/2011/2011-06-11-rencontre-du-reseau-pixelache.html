@@ -77,17 +77,21 @@ summary: >-
 events_categories:
   - "rencontre"
   - "jeux-video"
-free_categories:
-  - permalink: "/agenda/rencontre/"
-    path: "/events_categories/rencontre"
-    slug: "rencontre"
-    file: "content/fr/events_categories/rencontre/_index.html"
-    name: "Rencontre"
-  - permalink: "/agenda/jeux-video/"
-    path: "/events_categories/jeux-video"
-    slug: "jeux-video"
-    file: "content/fr/events_categories/jeux-video/_index.html"
-    name: "jeux video"
+taxonomies:
+  - name: "Catégories"
+    slug: ""
+    categories:
+      - permalink: "/agenda/rencontre/"
+        path: "/events_categories/rencontre"
+        slug: "rencontre"
+        file: "content/fr/events_categories/rencontre/_index.html"
+        name: "Rencontre"
+      - permalink: "/agenda/jeux-video/"
+        path: "/events_categories/jeux-video"
+        slug: "jeux-video"
+        file: "content/fr/events_categories/jeux-video/_index.html"
+        name: "jeux video"
+
 
 contents_reading_time:
   seconds: 7

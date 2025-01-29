@@ -77,17 +77,21 @@ summary: >-
 events_categories:
   - "exposition"
   - "video"
-free_categories:
-  - permalink: "/agenda/exposition/"
-    path: "/events_categories/exposition"
-    slug: "exposition"
-    file: "content/fr/events_categories/exposition/_index.html"
-    name: "Exposition"
-  - permalink: "/agenda/video/"
-    path: "/events_categories/video"
-    slug: "video"
-    file: "content/fr/events_categories/video/_index.html"
-    name: "vidéo"
+taxonomies:
+  - name: "Catégories"
+    slug: ""
+    categories:
+      - permalink: "/agenda/exposition/"
+        path: "/events_categories/exposition"
+        slug: "exposition"
+        file: "content/fr/events_categories/exposition/_index.html"
+        name: "Exposition"
+      - permalink: "/agenda/video/"
+        path: "/events_categories/video"
+        slug: "video"
+        file: "content/fr/events_categories/video/_index.html"
+        name: "vidéo"
+
 
 contents_reading_time:
   seconds: 60

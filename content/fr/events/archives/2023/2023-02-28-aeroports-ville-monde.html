@@ -75,17 +75,21 @@ summary: >-
 events_categories:
   - "exposition"
   - "ville"
-free_categories:
-  - permalink: "/agenda/exposition/"
-    path: "/events_categories/exposition"
-    slug: "exposition"
-    file: "content/fr/events_categories/exposition/_index.html"
-    name: "Exposition"
-  - permalink: "/agenda/ville/"
-    path: "/events_categories/ville"
-    slug: "ville"
-    file: "content/fr/events_categories/ville/_index.html"
-    name: "ville"
+taxonomies:
+  - name: "Catégories"
+    slug: ""
+    categories:
+      - permalink: "/agenda/exposition/"
+        path: "/events_categories/exposition"
+        slug: "exposition"
+        file: "content/fr/events_categories/exposition/_index.html"
+        name: "Exposition"
+      - permalink: "/agenda/ville/"
+        path: "/events_categories/ville"
+        slug: "ville"
+        file: "content/fr/events_categories/ville/_index.html"
+        name: "ville"
+
 
 contents_reading_time:
   seconds: 90
