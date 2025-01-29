@@ -77,17 +77,21 @@ summary: >-
 events_categories:
   - "rencontre"
   - "design"
-free_categories:
-  - permalink: "/agenda/rencontre/"
-    path: "/events_categories/rencontre"
-    slug: "rencontre"
-    file: "content/fr/events_categories/rencontre/_index.html"
-    name: "Rencontre"
-  - permalink: "/agenda/design/"
-    path: "/events_categories/design"
-    slug: "design"
-    file: "content/fr/events_categories/design/_index.html"
-    name: "design"
+taxonomies:
+  - name: "Catégories"
+    slug: ""
+    categories:
+      - permalink: "/agenda/rencontre/"
+        path: "/events_categories/rencontre"
+        slug: "rencontre"
+        file: "content/fr/events_categories/rencontre/_index.html"
+        name: "Rencontre"
+      - permalink: "/agenda/design/"
+        path: "/events_categories/design"
+        slug: "design"
+        file: "content/fr/events_categories/design/_index.html"
+        name: "design"
+
 
 contents_reading_time:
   seconds: 41

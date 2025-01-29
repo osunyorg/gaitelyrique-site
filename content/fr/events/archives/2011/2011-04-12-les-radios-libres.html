@@ -77,17 +77,21 @@ summary: >-
 events_categories:
   - "rencontre"
   - "economie"
-free_categories:
-  - permalink: "/agenda/rencontre/"
-    path: "/events_categories/rencontre"
-    slug: "rencontre"
-    file: "content/fr/events_categories/rencontre/_index.html"
-    name: "Rencontre"
-  - permalink: "/agenda/economie/"
-    path: "/events_categories/economie"
-    slug: "economie"
-    file: "content/fr/events_categories/economie/_index.html"
-    name: "économie"
+taxonomies:
+  - name: "Catégories"
+    slug: ""
+    categories:
+      - permalink: "/agenda/rencontre/"
+        path: "/events_categories/rencontre"
+        slug: "rencontre"
+        file: "content/fr/events_categories/rencontre/_index.html"
+        name: "Rencontre"
+      - permalink: "/agenda/economie/"
+        path: "/events_categories/economie"
+        slug: "economie"
+        file: "content/fr/events_categories/economie/_index.html"
+        name: "économie"
+
 
 contents_reading_time:
   seconds: 147

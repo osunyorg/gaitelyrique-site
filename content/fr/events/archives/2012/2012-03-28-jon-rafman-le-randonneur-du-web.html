@@ -78,22 +78,26 @@ events_categories:
   - "rencontre"
   - "monde-virtuel"
   - "medias"
-free_categories:
-  - permalink: "/agenda/rencontre/"
-    path: "/events_categories/rencontre"
-    slug: "rencontre"
-    file: "content/fr/events_categories/rencontre/_index.html"
-    name: "Rencontre"
-  - permalink: "/agenda/monde-virtuel/"
-    path: "/events_categories/monde-virtuel"
-    slug: "monde-virtuel"
-    file: "content/fr/events_categories/monde-virtuel/_index.html"
-    name: "monde virtuel"
-  - permalink: "/agenda/medias/"
-    path: "/events_categories/medias"
-    slug: "medias"
-    file: "content/fr/events_categories/medias/_index.html"
-    name: "médias"
+taxonomies:
+  - name: "Catégories"
+    slug: ""
+    categories:
+      - permalink: "/agenda/rencontre/"
+        path: "/events_categories/rencontre"
+        slug: "rencontre"
+        file: "content/fr/events_categories/rencontre/_index.html"
+        name: "Rencontre"
+      - permalink: "/agenda/monde-virtuel/"
+        path: "/events_categories/monde-virtuel"
+        slug: "monde-virtuel"
+        file: "content/fr/events_categories/monde-virtuel/_index.html"
+        name: "monde virtuel"
+      - permalink: "/agenda/medias/"
+        path: "/events_categories/medias"
+        slug: "medias"
+        file: "content/fr/events_categories/medias/_index.html"
+        name: "médias"
+
 
 contents_reading_time:
   seconds: 100

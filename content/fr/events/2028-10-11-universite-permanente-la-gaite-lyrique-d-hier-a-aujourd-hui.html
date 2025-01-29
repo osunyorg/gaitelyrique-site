@@ -32,7 +32,7 @@ design:
     present: false
     offcanvas: false
 
-weight: 1352
+weight: 1351
 dates:
   status: "future"
   archive: false
@@ -75,17 +75,21 @@ summary: >-
 events_categories:
   - "rencontre"
   - "architecture"
-free_categories:
-  - permalink: "/agenda/rencontre/"
-    path: "/events_categories/rencontre"
-    slug: "rencontre"
-    file: "content/fr/events_categories/rencontre/_index.html"
-    name: "Rencontre"
-  - permalink: "/agenda/architecture/"
-    path: "/events_categories/architecture"
-    slug: "architecture"
-    file: "content/fr/events_categories/architecture/_index.html"
-    name: "architecture"
+taxonomies:
+  - name: "Catégories"
+    slug: ""
+    categories:
+      - permalink: "/agenda/rencontre/"
+        path: "/events_categories/rencontre"
+        slug: "rencontre"
+        file: "content/fr/events_categories/rencontre/_index.html"
+        name: "Rencontre"
+      - permalink: "/agenda/architecture/"
+        path: "/events_categories/architecture"
+        slug: "architecture"
+        file: "content/fr/events_categories/architecture/_index.html"
+        name: "architecture"
+
 
 contents_reading_time:
   seconds: 76
