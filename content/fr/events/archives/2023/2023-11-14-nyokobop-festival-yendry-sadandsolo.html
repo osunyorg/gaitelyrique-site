@@ -78,22 +78,26 @@ events_categories:
   - "concert"
   - "festival"
   - "musiques-et-danses"
-free_categories:
-  - permalink: "/agenda/concert/"
-    path: "/events_categories/concert"
-    slug: "concert"
-    file: "content/fr/events_categories/concert/_index.html"
-    name: "Concert"
-  - permalink: "/agenda/festival/"
-    path: "/events_categories/festival"
-    slug: "festival"
-    file: "content/fr/events_categories/festival/_index.html"
-    name: "Festival"
-  - permalink: "/agenda/musiques-et-danses/"
-    path: "/events_categories/musiques-et-danses"
-    slug: "musiques-et-danses"
-    file: "content/fr/events_categories/musiques-et-danses/_index.html"
-    name: "Musiques et danses"
+taxonomies:
+  - name: "Catégories"
+    slug: ""
+    categories:
+      - permalink: "/agenda/concert/"
+        path: "/events_categories/concert"
+        slug: "concert"
+        file: "content/fr/events_categories/concert/_index.html"
+        name: "Concert"
+      - permalink: "/agenda/festival/"
+        path: "/events_categories/festival"
+        slug: "festival"
+        file: "content/fr/events_categories/festival/_index.html"
+        name: "Festival"
+      - permalink: "/agenda/musiques-et-danses/"
+        path: "/events_categories/musiques-et-danses"
+        slug: "musiques-et-danses"
+        file: "content/fr/events_categories/musiques-et-danses/_index.html"
+        name: "Musiques et danses"
+
 
 contents_reading_time:
   seconds: 112

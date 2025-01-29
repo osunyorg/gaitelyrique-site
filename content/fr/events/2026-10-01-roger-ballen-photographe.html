@@ -32,7 +32,7 @@ design:
     present: false
     offcanvas: false
 
-weight: 611
+weight: 610
 dates:
   status: "future"
   archive: false
@@ -77,27 +77,31 @@ events_categories:
   - "societe"
   - "art"
   - "photographie"
-free_categories:
-  - permalink: "/agenda/rencontre/"
-    path: "/events_categories/rencontre"
-    slug: "rencontre"
-    file: "content/fr/events_categories/rencontre/_index.html"
-    name: "Rencontre"
-  - permalink: "/agenda/societe/"
-    path: "/events_categories/societe"
-    slug: "societe"
-    file: "content/fr/events_categories/societe/_index.html"
-    name: "société"
-  - permalink: "/agenda/art/"
-    path: "/events_categories/art"
-    slug: "art"
-    file: "content/fr/events_categories/art/_index.html"
-    name: "art"
-  - permalink: "/agenda/photographie/"
-    path: "/events_categories/photographie"
-    slug: "photographie"
-    file: "content/fr/events_categories/photographie/_index.html"
-    name: "photographie"
+taxonomies:
+  - name: "Catégories"
+    slug: ""
+    categories:
+      - permalink: "/agenda/rencontre/"
+        path: "/events_categories/rencontre"
+        slug: "rencontre"
+        file: "content/fr/events_categories/rencontre/_index.html"
+        name: "Rencontre"
+      - permalink: "/agenda/societe/"
+        path: "/events_categories/societe"
+        slug: "societe"
+        file: "content/fr/events_categories/societe/_index.html"
+        name: "société"
+      - permalink: "/agenda/art/"
+        path: "/events_categories/art"
+        slug: "art"
+        file: "content/fr/events_categories/art/_index.html"
+        name: "art"
+      - permalink: "/agenda/photographie/"
+        path: "/events_categories/photographie"
+        slug: "photographie"
+        file: "content/fr/events_categories/photographie/_index.html"
+        name: "photographie"
+
 
 contents_reading_time:
   seconds: 32

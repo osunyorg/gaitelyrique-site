@@ -77,17 +77,21 @@ summary: >-
 events_categories:
   - "rencontre"
   - "societe"
-free_categories:
-  - permalink: "/agenda/rencontre/"
-    path: "/events_categories/rencontre"
-    slug: "rencontre"
-    file: "content/fr/events_categories/rencontre/_index.html"
-    name: "Rencontre"
-  - permalink: "/agenda/societe/"
-    path: "/events_categories/societe"
-    slug: "societe"
-    file: "content/fr/events_categories/societe/_index.html"
-    name: "société"
+taxonomies:
+  - name: "Catégories"
+    slug: ""
+    categories:
+      - permalink: "/agenda/rencontre/"
+        path: "/events_categories/rencontre"
+        slug: "rencontre"
+        file: "content/fr/events_categories/rencontre/_index.html"
+        name: "Rencontre"
+      - permalink: "/agenda/societe/"
+        path: "/events_categories/societe"
+        slug: "societe"
+        file: "content/fr/events_categories/societe/_index.html"
+        name: "société"
+
 
 contents_reading_time:
   seconds: 10
