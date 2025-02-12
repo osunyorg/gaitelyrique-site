@@ -2,6 +2,11 @@
 
 baseURL: https://site.gaitelyrique.osuny.site
 
+## OSUNY
+osuny:
+  website:
+    id: 89653d48-c45d-4f4b-b69c-a09ed8027127
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
