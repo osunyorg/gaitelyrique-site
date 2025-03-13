@@ -1,3 +1,2 @@
 theme: gaitelyrique-theme
-enableRobotsTXT: true
-removePathAccents: true
+_merge: deep
